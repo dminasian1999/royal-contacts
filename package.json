@@ -1,0 +1,19 @@
+{
+  "name": "contacts-frontend",
+  "version": "1.0.0",
+  "description": "React 19 front‑end for managing user contacts via a Spring Boot + MongoDB backend",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "vite": "^7.2.7",
+    "@vitejs/plugin-react": "^5.1.2"
+  }
+}
