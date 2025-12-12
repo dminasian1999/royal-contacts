@@ -7,7 +7,8 @@ import axios from 'axios';
  * - Mobile-friendly Table (converts to cards)
  */
 
-const API_BASE_URL = 'http://localhost:8080/api/contacts';
+// const API_BASE_URL = 'http://localhost:8080/api/contacts';
+const API_BASE_URL = 'https://royal-back-1-r43b.onrender.com/api/contacts';
 
 const emptyForm = {
   id: '',
@@ -304,7 +305,7 @@ function App() {
           </main>
 
           <footer className="app-footer">
-            <p>© {new Date().getFullYear()} Contacts Manager. Built with React & Spring Boot.</p>
+            <p>© {new Date().getFullYear()} Contacts Manager. Built with React & Spring Boot. D. Minasyan</p>
           </footer>
         </div>
       </div>
